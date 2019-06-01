@@ -1,0 +1,27 @@
+.button{
+    display: inline-block;
+    background-color: $white;
+    color: $taupe-gray;
+    border: 1px solid $granite-gray;
+    text-decoration: none;
+    font-size: $large;
+    font-weight: $bold;
+    padding: .25em 1.5em;
+    border-radius: 1em;
+}
+
+@media (max-width: 992px) {
+    .button{
+        font-size: $medium;
+        padding: .75em 5em;
+        border-radius: 1.5em;
+    }
+}
+
+@media (max-width: 767px) {
+    .button{
+        font-size: $medium;
+        padding: .75em 1.5em;
+        border-radius: 1.5em;
+    }
+}
